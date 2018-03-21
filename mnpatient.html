@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Health Care</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
+
+	<style>
+	label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:3px;
+	font-family:"Times New Roman";
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	<!--background:url(images/textarea-bg.jpg) right no-repeat #efefef;-->
+}
+
+
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+   <!-- background:url(images/submit.jpg);-->
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+	
+	
+	<!--Button -->
+		.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+
+		</style>
+</head><!--/head-->
+
+<body>
+<center>
+<img src="images/logo.png" />
+</center>
+
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="mnindex.html">Home</a></li>
+      <li><a href="mnabout.html">About</a></li>
+      <li><a href="mnrecord.php">Records</a></li>
+      <li><a href="mnsummary.html">Summary</a></li>
+      <li><a href="s.html">Logout</a></li>
+     
+     
+    </ul>
+  </div>
+  <div class="clearing"></div>
+</div>
+<div class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo">
+      <h1>Healthy<span>Life</span></h1>
+      <p>Stay Healthy Stay Happy</p>
+    </div>
+    
+  </div>
+
+ <div class="clearing"></div>
+ <form>
+<div class="">
+
+			<table cellspacing="7" cellpadding="10">
+                          
+                                <tr>
+                                    <td>
+                                        <label> Name </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Enter patient name" required> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label> Date Of Birth</label>
+                                    </td>
+                                    <td>
+                                        <input type="date"> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label> Age </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Current Age" required> </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                        <label> Gender </label>
+                                    </td>
+                                    <td>
+                                        <select>
+                                            <option> Select One </option>
+                                            <option> Male </option>
+                                            <option> Female </option>
+                                          
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                <tr>
+                                    <td>
+                                        <label> Contact No </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Enter Mobile Number" required> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label> Weight </label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Enter Weight in kg" required> </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label> Height</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Enter Height in cms" required> </td>
+                                </tr>
+								
+								<tr>
+                                    <td>
+                                        <label> BMI</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="BMI Result" required> </td>
+                                </tr>
+								
+								<tr>
+								<td>
+								<input type="submit" value="ADD">
+								</tr>
+                        </table>
+
+</form>
+
+
+</div>
+
+ 
+ <div class="footer-wrapper">
+  <div class="footer">
+        <div class="row">
+        <div class="col-sm-6">
+                   &copy; 2016 Copyrighted. All Rights Reserved.
+         </div>
+         </div>
+	</div>
+</div>
+</body>
+</html>

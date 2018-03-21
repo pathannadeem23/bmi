@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Health Care</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
+<style>
+.mySlides {display:none;}
+</style>
+
+</head>
+<body>
+<center>
+<img src="images/logo.png" />
+</center>
+
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="mnindex.html">Home</a></li>
+      <li><a href="mnabout.html">About</a></li>
+      <li><a href="mnrecord.php">Records</a></li>
+      <li><a href="mnsummary.html">Summary</a></li>
+      <li><a href="s.html">Logout</a></li>
+     
+     <!-- <li><a href="pressroom.html">press room</a></li>
+      <li><a href="clients.html">clients</a></li>
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="faq.html">faq</a></li>
+      <li class="img"><a href="contact.html">contact</a></li> -->
+    </ul>
+  </div>
+  <div class="clearing"></div>
+</div>
+<div class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo">
+      <h1>Healthy<span>Life</span></h1>
+      <p>Stay Healthy Stay Happy</p>
+    </div>
+     </div>
+
+ <div class="clearing"></div>
+   
+   <div class="clearing"></div>
+  <div class="banner-wrapper">
+    <div class="banner"> 
+	By combining all BMI value, ratio is determined.
+   <form>
+   <ul>
+ <!--  <li>
+	BY Gender
+	<select>
+	<option>Select One</option>
+	<option>Male</option>
+	<option>Female</option>
+
+	</select>
+   </li> -->
+    
+	Enter Doctor's Name :
+	<input type = "text" name= "name">
+   
+   <br>
+   <br>
+ <!--  <li>
+	BY Value
+	<select>
+	<option>Select One</option>
+	<option>Underweight</option>
+	<option>Normal</option>
+	<option>Obese</option>
+	</select>
+   </li> -->
+   
+   <input type = "submit1" name= "name" value="Underweight">
+   
+   <input type = "submit2" name= "name" value="Normal">
+   
+   <input type = "submit3" name= "name"value="Obese">
+   
+   </ul>
+   </form>
+
+/*   
+   <?php
+	if(isset($_POST['submit']))
+	{
+		$name = $_POST['name'];
+		$dob = $_POST['dob'];
+		$age = $_POST['age'];
+		$gender = $_POST['sex'];
+	$cont= $_POST['cnt'];
+	$weight= $_POST['wt'];
+	$height = $_POST['ht'];
+	$bmi = $_POST['bmi'];
+		
+		$sql="insert into patient values('$name','$dob','$age','$gender','$cont','$weight','$height','$bmi')";
+	
+		if(!mysqli_query($con,$sql))
+		{
+			echo '<script type="text/javascript"> alert("Records not inserted") </script>';
+		}
+
+		else
+		{
+			echo '<script type="text/javascript"> alert("Records inserted successfully") </script>';
+		}
+	}
+	
+?>
+   */
+   
+</div>
+</div>
+</div>
+  <br>
+  
+  
+   <div>
+   </div>
+   
+  
+<div class="footer-wrapper">
+  <div class="footer">
+        <div class="row">
+        <div class="col-sm-6">
+                   &copy; 2016 Copyrighted. All Rights Reserved.
+                </div>
+            </div>
+	</div>
+</div>
+
+</body>
+</html>

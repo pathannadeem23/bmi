@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Health Care</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+<center>
+<img src="images/logo.png" width:50 height:20 />
+</center>
+<div class="menu-wrapper">
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="mnindex.html">Home</a></li>
+      <li><a href="mnabout.html">About</a></li>
+      <li><a href="mnrecord.php">Records</a></li>
+      <li><a href="mnsummary.php">Summary</a></li>
+      <li><a href="logout.php">Logout</a></li>
+     
+    </ul>
+  </div>
+  <div class="clearing"></div>
+</div>
+
+
+
+
+<div class="wrapper">
+  <div class="header-wrapper">
+    <div class="logo">
+    <h1>Healthy<span>Life</span></h1>
+      <p>Stay Healthy Stay Happy</p>
+    </div>
+     </div>
+  
+  <div class="clearing"></div>
+  <div class="banner-wrapper">
+    <div class="banner"> 
+	
+	<h2 class="w3-center">Images</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/bg1.jpg" style="width:100%">
+  <img class="mySlides" src="images/bg2.jpg" style="width:100%">
+  <img class="mySlides" src="images/bg3.jpeg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 8 seconds
+}
+</script>
+</div>
+    <div class="banner-content">
+      <h1>Body Mass Index</h1>
+      <h2>BMI =	Weight in Kilograms / Height in Meters<sup>2</sup></h2>
+   <!--   <p>Etiam malesuada</p> -->
+      <a href="#">Formula</a> </div>
+    <div class="clearing"></div>
+  </div>
+  <div class="panel-wrapper">
+   
+   What is BMI?<br>
+
+BMI is a person's weight in kilograms divided by the square of height in meters. BMI does not measure body fat directly, but research has shown that BMI is moderately correlated with more direct measures of body fat obtained from skinfold thickness measurements, bioelectrical impedance, densitometry (underwater weighing), dual energy x-ray absorptiometry (DXA) and other methods 1,2,3. Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these more direct measures of body fatness 4,5,6,7,8,9. In general, BMI is an inexpensive and easy-to-perform method of screening for weight category, for example underweight, normal or healthy weight, overweight, and obesity.
+
+
+	<br>
+	<br>
+	<br>
+	How is BMI used?
+<br>
+
+A high BMI can be an indicator of high body fatness. BMI can be used as a screening tool but is not diagnostic of the body fatness or health of an individual.
+
+To determine if a high BMI is a health risk, a healthcare provider would need to perform further assessments. These assessments might include skinfold thickness measurements, evaluations of diet, physical activity, family history, and other appropriate health screenings1
+	
+  <div class="page-wrapper">
+  
+	<div>
+	<img src="images/bg4.jpg"/>
+	
+	</div>
+	
+	
+	
+  </div>
+  </div>
+</div>
+
+	
+ 
+<div class="footer-wrapper">
+  <div class="footer">
+        <div class="row">
+        <div class="col-sm-6">
+                   &copy; 2016 Copyrighted. All Rights Reserved.
+                </div>
+            </div>
+	</div>
+</div>
+		
+ 
+  
+
+<!--<div class="bottom">
+  <div class="content">
+    <p>Designed By :<a href="http://www.alltemplateneeds.com">www.alltemplateneeds.com</a></p>
+    <p>Images  From :<a href="http://www.photorack.net"> photorack.net</a></p>
+  </div>
+</div>-->
+
+</body>
+</html>

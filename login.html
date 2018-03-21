@@ -1,0 +1,52 @@
+<?php
+ require 'config.php';
+?>
+<html>
+<head>
+<title>
+Login Page
+</title>
+<link rel="stylesheet href="css/style1.css">
+</head>
+<body style="background-color:gray">
+<div id="mainpage">
+<center>
+Login Page
+<img src = "images/i2.png" class="admin">
+</center>
+<br>
+<center>
+    	User Name:<input type="text" name="usernm" required /><br><br>
+        Password : <input type="password" name="pswd" required /><br><br>
+        <input type="submit" value="LOG IN" name="submit_btn">
+		</center>
+	</div>
+<!--	//24 to 50 is comment
+<?php
+	if(isset($_POST['submit_btn']))
+	{
+	//$user= $_POST['usernm'];
+	//$pass = $_POST['pswd'];
+
+	$username = $_POST['usernm'];
+	$password = $_POST['pswd'];
+	
+	
+	$query = "select * from admininfo where username'$username' AND  password='$password'";
+	
+	
+	$query_run = mysql_query($con,$query);
+	
+	if(mysql_run_rows($query_run)>0)
+	{
+	 echo "User already exist";
+	}
+	
+	
+
+	}
+?>
+
+-->
+</body>
+</html>
